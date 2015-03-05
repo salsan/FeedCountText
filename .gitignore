@@ -1,0 +1,7 @@
+*.swp
+*.php~
+*.ico
+*.yaml~
+*.yaml
+*.db
+main.php
