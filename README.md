@@ -7,7 +7,7 @@ In your Feedbburner account active FeedCount
 Publicize --> FeedCount --> Active
 
 #Example
-Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable
+Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable <br />
 ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
 
 #License
