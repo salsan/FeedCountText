@@ -6,6 +6,10 @@ In your Feedbburner account active FeedCount
 
 Publicize --> FeedCount --> Active
 
+#Example
+Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable
+ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
+
 #License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
