@@ -17,8 +17,8 @@ ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.f
      $app_uri = "http://feedcounttext.appspot.com/?uri="; 
      $count_uri = $app_uri.$fb_uri.$fb_id;
      $fb_count = fopen($count_uri, "r"); 
-     echo fgets($fb_count); <br />
-     fclose($fb_count); <br />
+     echo fgets($fb_count); 
+     fclose($fb_count);
 
 #License
     This program is free software: you can redistribute it and/or modify
