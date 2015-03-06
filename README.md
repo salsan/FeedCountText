@@ -7,8 +7,18 @@ In your Feedbburner account active FeedCount
 Publicize --> FeedCount --> Active
 
 #Example
+## URI
 Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable <br />
 ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
+## PHP
+
+     $fb_id = "Mashable"; // here your id account <br />
+     $fb_uri = "http://feeds.feedburner.com/~fc/"; <br />
+     $app_uri = "http://feedcounttext.appspot.com/?uri="; <br />
+     $count_uri = $app_uri.$fb_uri.$fb_id; <br />
+     $fb_count = fopen($count_uri, "r"); <br />
+     echo fgets($fb_count); <br />
+     fclose($fb_count); <br />
 
 #License
     This program is free software: you can redistribute it and/or modify
