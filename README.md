@@ -12,11 +12,11 @@ Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.fee
 ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
 ## PHP
 
-     $fb_id = "Mashable"; // here your id account <br />
-     $fb_uri = "http://feeds.feedburner.com/~fc/"; <br />
-     $app_uri = "http://feedcounttext.appspot.com/?uri="; <br />
-     $count_uri = $app_uri.$fb_uri.$fb_id; <br />
-     $fb_count = fopen($count_uri, "r"); <br />
+     $fb_id = "Mashable"; // here your id account 
+     $fb_uri = "http://feeds.feedburner.com/~fc/"; 
+     $app_uri = "http://feedcounttext.appspot.com/?uri="; 
+     $count_uri = $app_uri.$fb_uri.$fb_id;
+     $fb_count = fopen($count_uri, "r"); 
      echo fgets($fb_count); <br />
      fclose($fb_count); <br />
 
