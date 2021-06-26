@@ -20,7 +20,7 @@ ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.f
      echo fgets($fb_count); 
      fclose($fb_count);
 
-#License
+# License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -35,5 +35,5 @@ ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.f
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-#Contact
+# Contact
 Salvatore.Santagati@gmail.com
