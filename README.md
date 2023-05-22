@@ -1,15 +1,33 @@
-# FeedCountText
+# FeedCountText (Abandoned)
+
+**This project has been abandoned due to changes made by Google to FeedBurner, which removed the functionality of displaying the subscriber count. Previously, it was possible to activate this feature in the "Publicize --> FeedCount --> Active" menu**.
+
+
 This script display Feedburner subscriber Count in plain text
 
-#Required
+## Reason
+
+On April 14, 2021, [Google announced](https://support.google.com/feedburner/answer/10483501) that they would migrate FeedBurner to new infrastructure but remove certain "non-core" features, including email subscriptions, browser-friendly viewing, and password protection.
+
+
+## Impact on the Project
+
+Due to the changes made by Google to FeedBurner, the FeedCountText project is no longer able to provide an updated count of subscribers. As a result, we have decided to abandon the project.
+
+We apologize for any inconvenience caused and understand that this may affect the usefulness of the project. However, due to the changes made by Google, we can no longer guarantee the proper and reliable operation of the program.
+
+## Required
+
 In your Feedbburner account active FeedCount
 
 Publicize --> FeedCount --> Active
 
-#Example
-## URI
-Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable <br />
-ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
+## Example
+### URI
+    Mashable 	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/Mashable <br />
+
+    ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.feedburner.com/~fc/ChessLogger
+
 ## PHP
 
      $fb_id = "Mashable"; // here your id account 
@@ -36,4 +54,4 @@ ChessLogger	http://feedcounttext.appspot.com/FeedContText.php?uri=http://feeds.f
 
 
 # Contact
-Salvatore.Santagati@gmail.com
+Salvatore Santagati (<mailto:me@salsan.dev>)
